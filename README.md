@@ -25,8 +25,10 @@
 ## Description
  Steps to install and make use of [Nest](https://github.com/nestjs/nest) Framework
  
-## Github Repo Link:  https://github.com/Dixith1196/dm-nest-api
-## Heroku Link: https://dm-nest-api.herokuapp.com/
+ 
+ ## Links
+- Github Repo Link:  https://github.com/Dixith1196/dm-nest-api
+- Heroku Link: https://dm-nest-api.herokuapp.com/
  
 ## Installation
 
