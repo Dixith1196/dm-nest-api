@@ -23,9 +23,13 @@
   [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
 
 ## Description
-
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
-
+ Steps to install and make use of [Nest](https://github.com/nestjs/nest) Framework
+ 
+ 
+ ## Links
+- Github Repo Link:  https://github.com/Dixith1196/dm-nest-api
+- Heroku Link: https://dm-nest-api.herokuapp.com/
+ 
 ## Installation
 
 ```bash
