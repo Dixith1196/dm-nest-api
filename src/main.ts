@@ -14,4 +14,22 @@ async function bootstrap() {
 
   await app.listen(process.env.PORT||3000);
 }
+
+const sqlite3 = require('sqlite3');
+
+let db = new sqlite3.Database('myhunt.db');
+
+// db.run('CREATE TABLE users(name text)');
+db.run(`INSERT INTO users(name) VALUES(?)`, ['Deekshith'], function(err) {
+  if (err) {
+    return console.log(err.message);
+  }
+  // get the last insert id
+  console.log(`A row has been inserted with rowid ${this.lastID}`);
+});
+
+db.close();
+
+
+
 bootstrap();

@@ -1,0 +1,8 @@
+{
+    "type": "sqlite",
+    "host": "localhost",
+    "database": "myhunt.db",
+    "seeds": "['src/seeds/**/*{.ts,.js}']",
+  "factories": "['src/factories/**/*{.ts,.js}']"
+ }
+ 
